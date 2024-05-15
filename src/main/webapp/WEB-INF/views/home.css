@@ -1,0 +1,235 @@
+@charset "ISO-8859-1";
+
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-image: linear-gradient(90deg, #13547a 0%, #80d0c7 100%);
+	color:white;
+	
+}body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size:25px;
+}
+
+.user-info {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top:15px;
+    margin-bottom:7px;
+    font-size:20px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.quiz-form {
+    margin-bottom: 20px;
+}
+
+.inputs {
+    margin-bottom: 15px;
+    width:500px;
+    text-align:end;
+}
+
+.login-form,.register-form{
+    display: flex;
+    justify-content: center;
+}
+.logout{
+	background-color:white;
+}
+
+.quiz-scores {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.form-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],input[type="number"],
+input[type="password"] {
+    padding: 5px;
+    width: 200px;
+}
+.take-quiz{
+	padding:5px 10px;
+}
+.submit-regis {
+    margin-top: 10px;
+    font-size:12px;
+}
+
+.submit {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+   
+}
+.new{
+	margin-left:30px;
+}
+
+.submit:hover {
+    background-color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Add these styles to home.css */
+
+.quiz-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.timer {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight:600;
+}
+.ques{
+	padding:15px;
+}
+
+.questions {
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.question p {
+    font-weight: bold;
+}
+
+.question-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.quiz-form {
+    text-align: center;
+}
+#timer{
+	font-size:20px;
+	padding:10px 15px;
+	color:white;
+	text-align:center;
+}
+
+.submit {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.submit-quiz{
+	padding: 7px 20px;
+    background-color: #f4f4f4;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-left:15px;
+}
+.back{
+	margin-top: 10px;
+	margin-left: -15px;
+}
+.submit:hover {
+    background-color: #555;
+}
+
+
